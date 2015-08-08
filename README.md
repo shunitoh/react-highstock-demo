@@ -3,7 +3,6 @@ react-highstock-demo
 
 Highcharts/Highstock component for react.
 
-
 ### Directory Layout
 ```
 .

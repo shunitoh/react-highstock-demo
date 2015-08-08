@@ -1,6 +1,6 @@
 {
   "name"        : "react-highstock-demo",
-  "version"     : "1.0.0",
+  "version"     : "1.0.1",
   "description ": "react highstock demo",
   "main"        : "index.js",
   "scripts"     : {
@@ -36,8 +36,10 @@
   },
   "keywords": [
     "react",
+    "react-highstock",
+    "react-highcharts",
     "highstock",
-    "highchart",
+    "highcharts",
     "chart",
     "demo"
   ],
