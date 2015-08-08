@@ -44,4 +44,8 @@ $ node index.js
 
 http://localhost:3000/
 
-
+### Reference
+- https://github.com/kirjs/react-highcharts
+- https://www.npmjs.com/package/highstock-browserify
+- http://www.highcharts.com/stock/demo
+- http://www.highcharts.com/demo
