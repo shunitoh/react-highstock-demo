@@ -41,7 +41,6 @@ export default class SimpleChart extends React.Component {
     render() {
         var highChart = <div></div>;
         if(typeof window !== "undefined"){
-        //if(window){
             var Chart = require('./BaseChart.jsx');
             highChart = (<Chart type="Highcharts" config={this.changeConfig(this.props.series)} ref="highChart" />);
         }

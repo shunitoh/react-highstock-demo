@@ -16,7 +16,6 @@ export default class SimpleStockChart extends React.Component {
     render() {
         var highstockChart = <div></div>;
         if(typeof window !== "undefined"){
-        //if(window){
             var Chart = require('./BaseChart.jsx');
             highstockChart = (<Chart type="Highstock" config={this.changeConfig(this.props.series)} ref="highstockChart" />);
         }

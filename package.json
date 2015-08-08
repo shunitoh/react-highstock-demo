@@ -41,7 +41,6 @@
     "chart",
     "demo"
   ],
-  "private" : true,
   "author"  : "shunitoh",
   "license" : "MIT",
   "bugs"    : {
