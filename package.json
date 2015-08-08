@@ -1,0 +1,51 @@
+{
+  "name"        : "react-highstock-demo",
+  "version"     : "1.0.0",
+  "description ": "react highstock demo",
+  "main"        : "index.js",
+  "scripts"     : {
+    "start" : "node index.js",
+    "build" : "gulp build",
+    "test"  : "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository"  : {
+    "type"  : "git",
+    "url"   : "git+https://github.com/shunitoh/react-highstock-demo.git"
+  },
+  "dependencies": {
+    "react"                : "*",
+    "highstock-browserify" : "*"
+  },
+  "devDependencies": {
+    "gulp"                 : "*",
+    "gulp-load-plugins"    : "*",
+    "gulp-notify"          : "*",
+    "gulp-plumber"         : "*",
+    "gulp-shell"           : "*",
+    "del"                  : "*",
+    "run-sequence"         : "*",
+    "vinyl-source-stream"  : "*",
+    "babelify"             : "*",
+    "browserify"           : "*",
+    "source"               : "*",
+    "express"              : "*",
+    "morgan"               : "*",
+    "consolidate"          : "*",
+    "underscore"           : "*",
+    "serve-favicon"        : "*"
+  },
+  "keywords": [
+    "react",
+    "highstock",
+    "highchart",
+    "chart",
+    "demo"
+  ],
+  "private" : true,
+  "author"  : "shunitoh",
+  "license" : "MIT",
+  "bugs"    : {
+    "url" : "https://github.com/shunitoh/react-highstock-demo/issues"
+  },
+  "homepage" : "https://github.com/shunitoh/react-highstock-demo#readme"
+}
