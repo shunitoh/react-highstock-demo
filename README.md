@@ -4,7 +4,7 @@ react-highstock-demo
 Highcharts/Highstock component for react.
 
 ### Demo
-http://shunitoh.github.io/react-highstock-demo/
+http://shunitoh.github.io/react-highstock-demo/  
 <img alt="screenshot" width="500" height="300 "src="https://raw.githubusercontent.com/shunitoh/shunitoh.github.io/master/react-highstock-demo/screenshot.png" />
 
 
