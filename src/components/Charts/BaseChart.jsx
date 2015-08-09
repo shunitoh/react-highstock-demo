@@ -25,6 +25,10 @@ export default class BaseChart extends React.Component {
             case 'Highcharts':
                 this.chart = new Highcharts.Chart(config);
                 break;
+            case 'HighchartsMore':
+                require('Highcharts/js/highcharts-more.src.js');
+                this.chart = new Highcharts.Chart(config);
+                break;
             default:
                 throw new Error('Cannot match chart type. keys[ Highstock or Highcharts ] input[ ' + chartType + ' ]');
                 break;

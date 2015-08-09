@@ -32,7 +32,8 @@
     "morgan"               : "*",
     "consolidate"          : "*",
     "underscore"           : "*",
-    "serve-favicon"        : "*"
+    "serve-favicon"        : "*",
+    "Highcharts"           : "git://github.com/highslide-software/highcharts.com"
   },
   "keywords": [
     "react",

@@ -1,5 +1,6 @@
-import React from 'react';
+import React            from 'react';
 import SimpleStockChart from './Charts/SimpleStockChart.jsx';
+import SimplePolarChart from './Charts/SimplePolarChart.jsx';
 import SimpleChart      from './Charts/SimpleChart.jsx';
 
 export default class App extends React.Component {
@@ -38,6 +39,22 @@ export default class App extends React.Component {
                         valueDecimals: 2
                     }
                 }
+            ],
+            simplePolarChartSeries : [
+                {
+                    type: 'column',
+                    name: 'Column',
+                    data: [8, 7, 6, 5, 4, 3, 2, 1],
+                    pointPlacement: 'between'
+                }, {
+                    type: 'line',
+                    name: 'Line',
+                    data: [1, 2, 3, 4, 5, 6, 7, 8]
+                }, {
+                    type: 'area',
+                    name: 'Area',
+                    data: [1, 8, 2, 7, 3, 6, 4, 5]
+                }
             ]
         }
     }
@@ -47,6 +64,7 @@ export default class App extends React.Component {
             <div>
                 <SimpleChart series={this.state.simpleChartSeries}/>
                 <SimpleStockChart series={this.state.simpleStockChartSeries}/>
+                <SimplePolarChart series={this.state.simplePolarChartSeries}/>
             </div>
         );
     }
