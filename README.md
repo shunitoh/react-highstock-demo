@@ -1,7 +1,7 @@
 react-highstock-demo
 ================
 
-Highcharts/Highstock component for react.
+Highcharts/Highstock demo for react.
 
 ### Demo
 http://shunitoh.github.io/react-highstock-demo/  
