@@ -49,7 +49,7 @@ export default class SimplePolarChart extends React.Component {
         var highChart = <div></div>;
         if(typeof window !== "undefined"){
             var Chart = require('./BaseChart.jsx');
-            highChart = (<Chart type="HighchartsMore" config={this.changeConfig(this.props.series)} ref="highPolarChart" />);
+            highChart = (<Chart theme="dark-blue" type="HighchartsMore" config={this.changeConfig(this.props.series)} ref="highPolarChart" />);
         }
         return (
             <div>

@@ -42,7 +42,7 @@ export default class SimpleChart extends React.Component {
         var highChart = <div></div>;
         if(typeof window !== "undefined"){
             var Chart = require('./BaseChart.jsx');
-            highChart = (<Chart type="Highcharts" config={this.changeConfig(this.props.series)} ref="highChart" />);
+            highChart = (<Chart theme="dark-green" type="Highcharts" config={this.changeConfig(this.props.series)} ref="highChart" />);
         }
         return (
             <div>

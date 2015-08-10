@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "react"                : "*",
-    "highstock-browserify" : "*"
+    "highstock-browserify" : "*",
+    "lodash"               : "*"
   },
   "devDependencies": {
     "gulp"                 : "*",
