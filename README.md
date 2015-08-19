@@ -51,7 +51,7 @@ $ node index.js
 
 ### How to Access
 
-- http://localhost:3000/
+- http://localhost:3333/
 
 ### Reference
 - https://github.com/kirjs/react-highcharts
